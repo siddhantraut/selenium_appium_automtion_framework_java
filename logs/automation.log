@@ -1,0 +1,89 @@
+2026-05-05 09:58:05 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:00:53 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:17:14 INFO  Utils:112 - [TestNG] Running:
+  /Users/admin/Library/Caches/JetBrains/IntelliJIdea2025.3/temp-testng-customsuite.xml
+
+2026-05-05 10:19:48 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:48 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 33 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [TestNG] Running:
+  /Users/admin/Documents/GitHub/MobileWebAutomationFramework_Java/testng.xml
+
+2026-05-05 10:19:49 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-05-05 10:19:49 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7db12bb6: 0 ms
+2026-05-05 10:22:54 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 21 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 40 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [TestNG] Running:
+  /Users/admin/Documents/GitHub/MobileWebAutomationFramework_Java/testng.xml
+
+2026-05-05 10:22:55 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2026-05-05 10:22:55 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@72e5a8e: 0 ms
+2026-05-05 10:23:12 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:23:21 INFO  WebDriverManager:1239 - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-05 10:23:21 INFO  Downloader:132 - Downloading https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/147.0.7727.117/mac-x64/chromedriver-mac-x64.zip
+2026-05-05 10:23:23 INFO  Downloader:193 - Extracting driver from compressed file chromedriver-mac-x64.zip
+2026-05-05 10:23:23 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac64/147.0.7727.117/chromedriver
+2026-05-05 10:23:34 INFO  WebDriverManager:1239 - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-05 10:23:34 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac64/147.0.7727.117/chromedriver
+2026-05-05 10:29:16 INFO  Utils:112 - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2026-05-05 10:29:16 INFO  WebDriverManager:1239 - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-05 10:29:16 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac64/147.0.7727.117/chromedriver
+2026-05-05 10:29:22 INFO  WebDriverManager:1239 - Using chromedriver 147.0.7727.117 (resolved driver for Chrome 147)
+2026-05-05 10:29:22 INFO  WebDriverManager:1301 - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac64/147.0.7727.117/chromedriver

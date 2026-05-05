@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Web Automation Framework" verbose="2" parallel="false">
+
+    <!-- Web Tests Suite -->
+    <test name="Web Tests">
+        <classes>
+            <class name="org.example.tests.SampleTest">
+                <methods>
+                    <include name="testGoogleSearch"/>
+                    <include name="testPageLoadVerification"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- Mobile Tests Suite (Optional) -->
+    <!-- Uncomment below to run mobile tests
+    <test name="Mobile Tests">
+        <classes>
+            <class name="org.example.tests.SampleTest">
+                <methods>
+                    <include name="testMobileAppLaunch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    -->
+
+</suite>
+
