@@ -1,8 +1,6 @@
 package org.example.tests;
 
 import org.example.base.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -46,7 +44,7 @@ public class SampleTest extends BaseTest {
      * Sample test for mobile application
      * Note: This test will only run if APP_TYPE is set to 'mobile' in config.properties
      */
-    @Test(description = "Sample Mobile Test - App Launch Verification", enabled = false)
+    @Test(description = "Sample Mobile Test - App Launch Verification", enabled = true)
     public void testMobileAppLaunch() {
         try {
             if (mobileDriver != null) {
@@ -55,7 +53,7 @@ public class SampleTest extends BaseTest {
             }
         } catch (Exception e) {
             System.err.println("Error in mobile test: " + e.getMessage());
-            throw e;
+             throw e;
         }
     }
 }

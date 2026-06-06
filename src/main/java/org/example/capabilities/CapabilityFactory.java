@@ -4,7 +4,6 @@ import org.example.utils.ConfigurationManager;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-import io.appium.java_client.AppiumClientConfig;
 import io.appium.java_client.remote.options.BaseOptions;
 
 /**
@@ -77,7 +76,7 @@ public class CapabilityFactory {
         options.setCapability("platformVersion", ConfigurationManager.getProperty("ANDROID_PLATFORM_VERSION"));
         options.setCapability("platformName", "Android");
         options.setCapability("automationName", ConfigurationManager.getProperty("ANDROID_AUTOMATION_NAME", "UiAutomator2"));
-        options.setCapability("app", ConfigurationManager.getProperty("ANDROID_APP_PATH"));
+       // options.setCapability("app", ConfigurationManager.getProperty("ANDROID_APP_PATH"));
 
         // Set app package and activity if provided
         String appPackage = ConfigurationManager.getProperty("ANDROID_APP_PACKAGE");
@@ -116,7 +115,7 @@ public class CapabilityFactory {
         options.setCapability("platformVersion", ConfigurationManager.getProperty("IOS_PLATFORM_VERSION"));
         options.setCapability("platformName", "iOS");
         options.setCapability("automationName", ConfigurationManager.getProperty("IOS_AUTOMATION_NAME", "XCUITest"));
-        options.setCapability("app", ConfigurationManager.getProperty("IOS_APP_PATH"));
+        options.setCapability("app", ConfigurationManager.getProperty("IOS_BUNDLE_ID"));
         return options;
     }
 

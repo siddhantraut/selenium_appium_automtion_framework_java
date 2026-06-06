@@ -194,9 +194,19 @@ public void testAppLaunch() {
 
 ## Running Tests
 
+### Compile the Project
+```bash
+mvn clean compile
+```
+
 ### Install Dependencies
 ```bash
 mvn clean install
+```
+
+### Run a Single Test Method
+```bash
+mvn -Dtest=SampleTest#testMobileAppLaunch test
 ```
 
 ### Run All Tests

@@ -13,9 +13,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 import java.net.URL;
-import java.net.MalformedURLException;
 import java.time.Duration;
 
 /**
@@ -97,7 +95,7 @@ public class DriverFactory {
         AppiumDriver driver = null;
 
         try {
-            java.net.URL serverURL = new java.net.URL(APPIUM_SERVER_URL);
+            URL serverURL = new URL(APPIUM_SERVER_URL);
 
             if ("android".equals(mobileOS)) {
                 driver = createAndroidDriver(serverURL, appType);
