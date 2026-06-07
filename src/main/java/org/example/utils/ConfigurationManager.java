@@ -20,8 +20,14 @@ public class ConfigurationManager {
      */
     private static void loadProperties() {
         properties = new Properties();
-        try (FileInputStream fileInputStream = new FileInputStream(PROPERTIES_FILE_PATH)) {
-            properties.load(fileInputStream);
+        try (var inputStream = ConfigurationManager.class.getClassLoader().getResourceAsStream("config.properties")) {
+            if (inputStream != null) {
+                properties.load(inputStream);
+            } else {
+                try (FileInputStream fileInputStream = new FileInputStream(PROPERTIES_FILE_PATH)) {
+                    properties.load(fileInputStream);
+                }
+            }
         } catch (IOException e) {
             System.err.println("Error loading properties file: " + e.getMessage());
             e.printStackTrace();

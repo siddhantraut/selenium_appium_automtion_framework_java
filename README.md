@@ -95,6 +95,23 @@ IOS_APP_PATH=/path/to/app.ipa
 IOS_AUTOMATION_NAME=XCUITest
 ```
 
+#### Sephora iOS Native App Configuration
+Use this configuration when running the Sephora native app against a real iOS device.
+
+```properties
+APP_TYPE=mobile
+MOBILE_OS=ios
+APP_MOBILE_TYPE=native
+APPIUM_SERVER_URL=http://127.0.0.1:4723
+IOS_UDID=00008140-000474690EEB001C
+IOS_DEVICE_NAME=iPhone
+IOS_PLATFORM_VERSION=26.1
+IOS_BUNDLE_ID=com.sephora.sephoramobile
+# Use a custom WDA port to prevent conflicts with other Appium sessions
+IOS_WDA_LOCAL_PORT=8200
+IOS_AUTOMATION_NAME=XCUITest
+```
+
 #### Mobile Configuration Example (Android Web):
 ```properties
 APP_TYPE=mobile
@@ -190,6 +207,15 @@ public void testAppLaunch() {
     String appPackage = mobileDriver.getCurrentPackage();
     Assert.assertNotNull(appPackage);
 }
+```
+
+### Sephora Home Page Test
+
+This framework includes a Sephora-specific mobile validation test in `src/test/java/org/example/tests/HomePageTest.java`.
+It verifies that the Sephora home page loads and that the header buttons are interactive.
+
+```bash
+mvn -Dtest=org.example.tests.HomePageTest#validateHomePageLoads test
 ```
 
 ## Running Tests

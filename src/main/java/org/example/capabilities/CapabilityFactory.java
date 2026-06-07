@@ -115,7 +115,28 @@ public class CapabilityFactory {
         options.setCapability("platformVersion", ConfigurationManager.getProperty("IOS_PLATFORM_VERSION"));
         options.setCapability("platformName", "iOS");
         options.setCapability("automationName", ConfigurationManager.getProperty("IOS_AUTOMATION_NAME", "XCUITest"));
-        options.setCapability("app", ConfigurationManager.getProperty("IOS_BUNDLE_ID"));
+
+        String udid = ConfigurationManager.getProperty("IOS_UDID");
+        if (udid != null && !udid.isEmpty()) {
+            options.setCapability("udid", udid);
+        }
+
+        String bundleId = ConfigurationManager.getProperty("IOS_BUNDLE_ID");
+        if (bundleId != null && !bundleId.isEmpty()) {
+            options.setCapability("bundleId", bundleId);
+        }
+
+        String appPath = ConfigurationManager.getProperty("IOS_APP_PATH");
+        if (appPath != null && !appPath.isEmpty()) {
+            options.setCapability("app", appPath);
+        }
+
+        String wdaLocalPort = ConfigurationManager.getProperty("IOS_WDA_LOCAL_PORT");
+        if (wdaLocalPort == null || wdaLocalPort.isEmpty()) {
+            wdaLocalPort = "8200";
+        }
+        options.setCapability("wdaLocalPort", Integer.parseInt(wdaLocalPort));
+
         return options;
     }
 
