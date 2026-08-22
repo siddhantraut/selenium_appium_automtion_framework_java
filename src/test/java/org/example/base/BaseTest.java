@@ -2,6 +2,7 @@ package org.example.base;
 
 import org.example.driver.DriverFactory;
 import org.example.utils.ConfigurationManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import io.appium.java_client.AppiumDriver;
 import org.testng.annotations.BeforeMethod;
@@ -38,6 +39,9 @@ public class BaseTest {
             }
         }
     }
+
+
+
 
     /**
      * Teardown method - runs after each test

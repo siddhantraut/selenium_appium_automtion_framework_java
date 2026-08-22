@@ -13,12 +13,13 @@ public class SampleTest extends BaseTest {
      * Sample test for web application
      */
     @Test(description = "Sample Web Test - Google Search")
-    public void testGoogleSearch() {
+    public void testGoogleSearch() throws InterruptedException {
         try {
             // This test assumes you are testing Google or any web application
             String pageTitle = webDriver.getTitle();
             System.out.println("Page Title: " + pageTitle);
             Assert.assertNotNull(pageTitle, "Page title should not be null");
+            Thread.sleep(5000); // wait 5 seconds
         } catch (Exception e) {
             System.err.println("Error in test: " + e.getMessage());
             throw e;
@@ -29,11 +30,13 @@ public class SampleTest extends BaseTest {
      * Sample test for verifying page is loaded
      */
     @Test(description = "Sample Test - Page Load Verification")
-    public void testPageLoadVerification() {
+    public void testPageLoadVerification() throws InterruptedException {
         try {
             String currentURL = webDriver.getCurrentUrl();
             System.out.println("Current URL: " + currentURL);
             Assert.assertNotNull(currentURL, "Current URL should not be null");
+            // wait 5 seconds
+            Thread.sleep(5000);
         } catch (Exception e) {
             System.err.println("Error in test: " + e.getMessage());
             throw e;
