@@ -11,6 +11,13 @@
                     <include name="testPageLoadVerification"/>
                 </methods>
             </class>
+            <!-- SauceDemo Login Test -->
+            <class name="org.example.tests.SauceDemoLoginTest">
+                <methods>
+                    <include name="testSwagLabLogin"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 
