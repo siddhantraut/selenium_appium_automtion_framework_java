@@ -59,8 +59,6 @@ public class DriverFactory {
         return driver;
     }
 
-
-
     /**
      * Create Chrome WebDriver
      * @return ChromeDriver instance

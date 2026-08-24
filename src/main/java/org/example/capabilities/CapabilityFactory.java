@@ -57,8 +57,6 @@ public class CapabilityFactory {
         return options;
     }
 
-
-
     /**
      * Get web browser capabilities based on configuration
      * @return Browser options/capabilities

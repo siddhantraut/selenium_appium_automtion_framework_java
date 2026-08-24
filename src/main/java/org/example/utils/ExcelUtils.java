@@ -5,15 +5,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ExcelUtils {
-
-    private static final String FILE_PATH =
-            "src/test/resources/testdata/SaucedemoLogin.xlsx";
-
-    public static String getCellData(String sheetName,
-                                     int rowNumber,
-                                     int columnNumber) throws IOException {
-        FileInputStream file = new FileInputStream(FILE_PATH);
-
+    public static String getCellData(String filePath, String sheetName, int rowNumber, int columnNumber) throws IOException {
+        FileInputStream file = new FileInputStream(filePath);
         Workbook workbook = WorkbookFactory.create(file);
 
         Sheet sheet = workbook.getSheet(sheetName);
