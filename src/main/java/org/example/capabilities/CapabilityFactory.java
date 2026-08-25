@@ -4,6 +4,7 @@ import org.example.utils.ConfigurationManager;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
+import org.openqa.selenium.safari.SafariOptions;
 import io.appium.java_client.remote.options.BaseOptions;
 
 /**
@@ -48,6 +49,15 @@ public class CapabilityFactory {
     }
 
     /**
+     * Create capabilities for Safari browser
+     * @return SafariOptions
+     */
+    public static SafariOptions getSafariCapabilities() {
+        SafariOptions options = new SafariOptions();
+        return options;
+    }
+
+    /**
      * Get web browser capabilities based on configuration
      * @return Browser options/capabilities
      */
@@ -57,6 +67,8 @@ public class CapabilityFactory {
         switch (browser) {
             case "firefox":
                 return getFirefoxCapabilities();
+            case "safari":
+                return getSafariCapabilities();
             case "ie":
             case "internet explorer":
                 return getInternetExplorerCapabilities();

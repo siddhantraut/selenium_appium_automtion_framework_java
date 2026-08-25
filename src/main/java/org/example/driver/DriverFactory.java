@@ -1,5 +1,7 @@
 package org.example.driver;
 
+import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.safari.SafariOptions;
 import org.example.utils.ConfigurationManager;
 import org.example.capabilities.CapabilityFactory;
 import org.openqa.selenium.WebDriver;
@@ -42,6 +44,9 @@ public class DriverFactory {
             case "internet explorer":
                 driver = createInternetExplorerDriver();
                 break;
+            case "safari":
+                driver = createSafariDriver();
+                break;
             default:
                 throw new IllegalArgumentException("Browser not supported: " + browser);
         }
@@ -82,6 +87,15 @@ public class DriverFactory {
         WebDriverManager.iedriver().setup();
         InternetExplorerOptions options = (InternetExplorerOptions) CapabilityFactory.getInternetExplorerCapabilities();
         return new InternetExplorerDriver(options);
+    }
+    /**
+     * Create Safari WebDriver
+     * @return Safari instance
+     */
+
+    private static WebDriver createSafariDriver() {
+        SafariOptions options = (SafariOptions) CapabilityFactory.getSafariCapabilities();
+        return new SafariDriver(options);
     }
 
     /**
